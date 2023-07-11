@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/*navigation*/
+nav{
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+    align-items: center;
+
+}
+nav .logo{
+    width: 100wh;
+    cursor: pointer;
+}
+nav .navmenu ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-size: 15px;
+    font-weight: 600;
+}
+.navmenu ul li a:hover{
+    text-decoration: underline;
+    color: #8c8c8c;
+}
+.nav-btn button{
+    background-color:#5955b3;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: #ffffff ;
+    border-style: none;
+    font-size: 12px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-left: 400px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+
+}
+/*section*/
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftsection{
+    display: flex;
+    flex-direction: column;
+    
+}
+.leftsection h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    word-spacing: 5px;
+    color: #3c2f60;
+    padding: 0px 20px 40px 60px ;
+    margin-top: -300px;
+    
+}
+.leftsection h1 span{
+    color: #5955b3;
+}
+.leftsection p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 60px;
+    line-height: 20px;
+    color: #8c8c8c;
+}
+.leftsection button{
+    background-color: #5955b3;
+    padding: 10px 20px;
+    border-radius: 12px;
+    width: 150px;
+    margin-left: 60px;
+    border-style: none;
+    color: #ffffff;
+    word-spacing: 1px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+section div img{
+    height: 800px;
+    width: 760px;
+    padding: 10px 60px 100px 50px;
+}
