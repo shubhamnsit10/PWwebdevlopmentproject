@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("./bg.png");
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+
+}
+/*navigation*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    height: 100px;
+}
+nav .nav-menu ul{
+    display: flex;
+    gap: 30px;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu ul li img{
+    display: flex;
+    margin-left: 20px;
+    height: 40px;
+    
+}
+.nav-menu ul li a{
+    display: flex;
+    text-decoration: none;
+    color: #ffff;
+    margin-top: 10px;
+    padding-left: 30px;
+
+}
+.nav-btn button{
+    display: flex;
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #ba0cc5;
+    color: #fff;
+    border-radius: 8px;
+    border-style: none;
+    letter-spacing: .5px;
+}
+/*main-section*/
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 90px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    line-height: 30ppx;
+}
+.description p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.description button{
+    background-color: #ba0cc5;
+    padding: 10px 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
