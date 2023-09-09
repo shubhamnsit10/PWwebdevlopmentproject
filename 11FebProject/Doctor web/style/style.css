@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    background-color:#f0f4f5;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+ul li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+nav img{
+    width: 160px;
+    cursor: pointer;
+    margin-left: -80px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: 80px;
+    
+}
+.topAngle{
+    height: 20px;
+    width: 20px;
+
+}
+.description h2{
+    font-size: 70px;
+    font-weight: 900;
+    width:50%;
+}
+.description p{
+    font-size: 15px;
+    font-weight: 600;
+    width: 40%;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #80837e;
+}
+.bottomAngle{
+    height: 20px;
+    width: 20px;
+    margin-left: 450px;
+}
+.stethoscope{
+    position: absolute;
+    width: 40%;
+    height: 91%;
+    left: 20%;
+    top: 120px;
+    z-index: -1;
+}
+.description div button{
+    background-color:#20bc7e;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.mouse{
+    height: 35px;
+    width: 25px;
+    position: absolute;
+    margin-left: 40%;
+    bottom: -25px;
+    cursor:progress;
+}
+.left-main-image{
+    display: flex;
+    position:absolute;
+    align-items:center;
+    margin-left: 50%;
+    margin-top: -43%;
+}
+.left-main-image div{
+    display: flex;
+    margin-left: 10px ;
+    margin-bottom: 40px;
+}
+.greenBox{
+    position: absolute;
+    scale: 0.6;
+}
+.yellowBox{
+    position: absolute;
+    scale: 0.6;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.doctor{
+    position: absolute;
+    scale: 0.6;
+    margin-top: 500px;
+    
+}
